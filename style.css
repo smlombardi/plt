@@ -1,0 +1,48 @@
+/*
+Theme Name: Eventica WP Child
+Theme URI: http://www.toko.press
+Author: TokoPress
+Author URI: http://www.toko.press/support
+Description: Child Theme Sample for Eventica WP Theme.
+Version: 1.9.0
+Template: eventica-wp    
+Text domain: tokopress;
+License: GPL License
+License URI: license.txt
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, theme-options, translation-ready
+*/
+
+.home-slider-events .slide-event-detail {
+  background: rgba(100, 83, 73, 0.8);
+}
+
+.tribe-events-list .event-list-wrapper-bottom .wraper-bottom-right {
+  background: #376434;
+}
+
+.home-featured-event .featured-event-title {
+  background: #645349;
+  color: white;
+}
+
+#back-top {
+  background: #938c7b;
+}
+
+#back-top:hover {
+  background: #645349;
+}
+
+.upcoming-event-nav {
+  color: #fff;
+}
+
+.site-logo-image {
+  background-image: url('trail.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.top-bar .widget {
+    margin: 5px;
+}
