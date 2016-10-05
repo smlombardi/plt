@@ -23,7 +23,7 @@ function theme_slug_widgets_init() {
 	register_sidebar( array(
 		'name' => __( 'Header Sidebar', 'theme-slug' ),
 		'id' => 'sidebar-1',
-		'description' => __( 'Widgets in this area will be shown on all posts and pages.', 'theme-slug' ),
+		'description' => __( 'Above the Header', 'theme-slug' ),
 	  'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
 		'before_title'  => '',
