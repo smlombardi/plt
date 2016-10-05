@@ -1,4 +1,11 @@
+<div class="neo-logo">
+<a href="http://www.nyoffroaddriving.com">
+<?php the_post_thumbnail( 'medium', array( 'class' => 'img-responsive' ) ); ?>
+</a>
+</div>
+<div class="home-page-content">
 <?php the_content(); ?>
+</div>
 <?php
 $args = array(
 	'post_status'=>'publish',
@@ -12,7 +19,6 @@ $the_recent_post = new WP_Query( $args );
 ?>
 
 <?php if( $the_recent_post->have_posts() ) : ?>
-vkxjvkvjxlkj 
 <div class="home-recent-posts">
 
 	<div class="recent-post-wrap">

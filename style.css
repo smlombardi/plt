@@ -46,3 +46,10 @@ Tags: one-column, two-columns, right-sidebar, custom-background, custom-colors, 
 .top-bar .widget {
     margin: 5px;
 }
+.neo-logo {
+  margin-top: 20px;
+  text-align: center;
+}
+.home-page-content {
+  color: #333;
+}
